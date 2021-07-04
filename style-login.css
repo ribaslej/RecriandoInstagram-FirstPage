@@ -1,0 +1,204 @@
+body {
+	background: rgb(243, 243, 243);
+	font-family: sans-serif;
+	font-size: 14px;
+	padding: 0;
+	font-decoration: none;
+}
+
+body a {
+	text-decoration: none;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.left {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 100px;
+	width: 50%;
+}
+
+.left img {
+	width: 250px;
+	height: 500px;
+	border-radius: 50px;
+}
+
+.right {
+	display: flex;
+	align-items: left;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 50%;
+}
+
+.logo_instagram {
+	width: 150px;
+	height: 50px;
+}
+
+.profile_photo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	margin-bottom: 20px;
+}
+
+.remover_conta:link {
+	color: #0095f6;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.register {
+	margin-top: 10px;
+}
+
+.links {
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #0095f6;
+}
+.app img {
+	width: 150px;
+	height: 50px;
+}
+
+.block {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 1px solid lightgrey;
+	background-color: #ffffff;
+	align-items: center;
+	width: 50%;
+	padding: 8px 0;
+}
+
+.block:nth-child(1) {
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.username {
+	border: 1px solid lightgrey;
+	padding: 8px 5px;
+	width: 100%;
+	background-color: rgb(243, 243, 243);
+	color: grey;
+}
+
+.password {
+	border: 1px solid lightgrey;
+	padding: 8px 5px;
+	margin-bottom: 10x;
+	width: 100%;
+	background-color: rgb(243, 243, 243);
+	color: grey;
+}
+
+.enter {
+	padding: 4px;
+	border-radius: 4px;
+	background-color: lightblue;
+	color: #ffffff;
+	font-weight: bold;
+	width: 100%;
+}
+
+.login_facebook img {
+	width: 15px;
+	height: 15px;
+	margin-right: 8px;
+}
+
+.login_facebook {
+	color: blue;
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+
+.forget {
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+
+.download {
+	text-align: center;
+	width: 50%;
+}
+
+@media (max-width: 767px) {
+	body {
+		background-color: #ffffff;
+	}
+	
+	.wrapper {
+		width: 100%;
+	}
+	
+	.left {
+		display: none;
+	}
+	
+	.right {
+		width: 100%;
+		align-items: center;
+		justify-content: space-around;
+	}
+	
+	.block {
+		border: 0;
+	}	
+}
+
+@media (min-width:768px) and (max-width:1160px) {
+	.wrapper {
+		width: 90%;
+	}
+	
+	.username {
+		width: 80%;
+		margin: auto;
+		margin-bottom: 10px;
+		font-size: 10px;
+	}
+	
+	.password {
+		width: 80%;
+		margin: auto;
+		margin-bottom: 10px;
+	}
+	
+	.enter {
+		width: 80%;
+		margin: auto;
+	}
+	
+	.register {
+		width: 80%;
+		font-size: 12px;
+		text-align: center;
+	}
+	
+	.links {
+		margin: auto;
+		font-size: 10px;
+	}
+}
